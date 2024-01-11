@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pseudo Classes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .dropdown-content a{
+            display: none;
+        }
+        .dropdown:hover .dropdown-content a{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- <a href="https://www.google.com">Click Here</a> -->
+    <div class="dropdown">
+        <a href="#">Items</a>
+        <div class="dropdown-content">
+            <a href="#">Item 1</a>
+            <a href="#">Item 2</a>
+            <a href="#">Item 3</a>
+        </div>
+    </div>
+</body>
+</html>
